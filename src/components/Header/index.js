@@ -9,7 +9,7 @@ const Headers = styled.header`
   justify-content: space-between;
   align-items: center;
   padding: 1rem 5rem;
-  background-color: var(--nav);
+  
   color: var(--white);
   position: relative;
   z-index: 500;
@@ -39,6 +39,7 @@ const Nav = styled.nav`
   align-items: center;
   justify-content: space-between;
   transition: all 0.3s;
+  background-color: var(--nav);
   @media only Screen and (max-width: 48em) {
     display: none;
   }
